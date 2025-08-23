@@ -42,7 +42,7 @@ rm -rf feeds/packages/net/smartdns
 git clone https://github.com/ydy250818/smartdns.git feeds/packages/net/smartdns
 
 # Modify hostname
-sed -i 's/OpenWrt/LEDEWrt-YDY/g' package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/immortalwrt-YDY/g' package/base-files/files/bin/config_generate
 
 # Modify filename, add date prefix
 sed -i 's/IMG_PREFIX:=/IMG_PREFIX:=$(shell date +"%Y%m%d")-/1' include/image.mk
