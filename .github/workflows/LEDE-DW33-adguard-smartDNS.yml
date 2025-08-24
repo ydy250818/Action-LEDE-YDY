@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: DW33-adguard-smartDNS
+name: LEDE-DW33-adguard-smartDNS
 
 on:
   repository_dispatch:
@@ -173,4 +173,5 @@ jobs:
       env:
 
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
