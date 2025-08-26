@@ -23,8 +23,8 @@ sed -i 's/192.168.1.1/192.168.123.1/g' package/base-files/files/bin/config_gener
 sed -i '/CYXluq4wUazHjmCDBCqXF/d' package/lean/default-settings/files/zzz-default-settings
 
 # 安装新主题 luci-theme-bootstrap-mod
-git clone https://github.com/ydy250818/luci-theme-bootstrap-mod.git package/lean/luci-theme-bootstrap-mod
-sed -i 's/luci-theme-bootstrap/luci-theme-bootstrap-mod/g' feeds/luci/collections/luci/Makefile
+# git clone https://github.com/ydy250818/luci-theme-bootstrap-mod.git package/lean/luci-theme-bootstrap-mod
+# sed -i 's/luci-theme-bootstrap/luci-theme-bootstrap-mod/g' feeds/luci/collections/luci/Makefile
 
 # 安装luci-app-smartdns和luci-app-adguardhome
 rm -rf feeds/luci/applications/luci-app-smartdns
